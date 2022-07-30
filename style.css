@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+}
+.main{
+    background-image: url("back.jpg");
+    border: 5px solid white;
+    height: 600px;
+    width:350px;
+    border-radius: 0.8em;
+   margin: auto;
+    margin-top: 65px;
+}
+.foot{
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 83px;
+    width: 352px;
+}
+.foot a {
+    float: left;
+    display: grid;
+    color: rgb(42, 40, 40);
+    text-align: center;
+    padding: 14px 22px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .foot a:hover {
+    background: #f1f1f1;
+    color: rgb(47, 44, 44);
+  }
+ 
